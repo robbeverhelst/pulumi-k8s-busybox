@@ -1,0 +1,6 @@
+config:
+  busybox:namespace: test
+  busybox:replicas: 1
+  busybox:image: busybox:1.36
+  busybox:message: hello from busybox
+  busybox:intervalSeconds: 10
