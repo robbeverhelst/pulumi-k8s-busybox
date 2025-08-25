@@ -1,0 +1,7 @@
+name: busybox
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+description: Busybox test stack on Kubernetes via Pulumi
+main: src/index.ts
